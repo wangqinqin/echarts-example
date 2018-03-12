@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jx-border{
+    border:solid 1px #009FDE;
+}
+.jx-tb-background{
+    background: -webkit-linear-gradient(top, #183540 , #192739); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom, #183540 , #192739); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom, #183540 , #192739); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom, #183540 , #192739); /* 标准的语法 */
+}
+.jx-font-title{
+    font-size: 14px;
+    color:#04c1ff;
+    padding: 10px 10px 2px 10px;
+}
+.rel{
+    position:relative;
+}
+.ellipsis{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.body-container{
+    width: 100%;
+    background-color: #1B242B;
+}
+.inner-container{
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 1250px;
+}
+.part{
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.part>div{
+    width: 100%;
+    height: 250px;
+}
+.part>div:nth-child(2){
+    margin:10px 0;
+}
+
+
+.hb-container{
+    text-align: center;
+}
+.hb-chart {
+    position: relative;
+    display: inline-block;
+    width: 96px;
+    height: 180px;
+    border: 1px solid transparent;
+    transition: all .2s;
+    color:#00f7fa;
+    cursor: pointer;
+}
+.hei{
+    width: 100%;
+    height: 100%;
+}
+.hb-container .hb-chart:nth-child(2){
+    margin: 0 10px;
+}
+.hb-chart:hover{
+    border: 1px solid #fff;
+    color:#fff;
+}
+.hb-chart .hb-chart-topWrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:38px;
+    left:0;
+    z-index:999;
+    cursor: pointer;
+}
+.hb-chart.down-active{
+    color:#fff;
+}
+.hb-chart.down-active{
+    border: 1px solid #fff;
+}
+.hb-num-container{
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:10px;
+    z-index:1000;
+}
+.hb-num-container>span{
+    font-size: 20px;
+}
+.hb-title-container{
+    font-size: 12px;
+    position: absolute;
+    width: 110px;
+    text-align: center;
+    bottom: -23px;
+    left: -8px;
+    z-index:999;
+}
+
+.legend-mofang{
+    height: 230px;
+    width:160px;
+    padding: 5px 10px;
+    font-size:12px;
+    position: absolute;
+    top:10px;
+    right: 5px;
+    color:#00f7fa;
+    background: -webkit-linear-gradient(top, rgba(1,214,252,0.2) , rgba(7,86,166,0.2)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom, rgba(1,214,252,0.2)  ,  rgba(7,86,166,0.2)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(1,214,252,0.2)  ,  rgba(7,86,166,0.2)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom, rgba(1,214,252,0.2)  ,  rgba(7,86,166,0.2)); /* 标准的语法 */
+    z-index:99;
+    cursor: pointer;
+}
+.legend-mofang .legend-click{
+    transition: all .1s;
+}
+.legend-mofang .legend-click>span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.legend-mofang .legend-click>span:nth-child(1){
+    width: 85px;
+}
+.legend-mofang .legend-click>span:nth-child(2){
+    float: right;
+}
+.legend-click{
+    transition: all .2s;
+}
+.legend-click:hover,
+.legend-click.down-active{
+    color:#fff;
+}
+
+
+.dhx-chart{
+    width: 197px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.sxt-chart{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
+.nsnlChart{
+    width: 130px;
+    height: 200px;
+    display: inline-block;
+}
